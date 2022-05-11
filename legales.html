@@ -11,7 +11,7 @@
 <body>
     
     <header>
-        <img src="imag/Logo2.jpg" width="150" height="100" alt="logotipo">   <!-- Widht y height solo provisorio por proporciones, 
+        <img src="imag/Logo2.jpg" width="150" height="100" alt="logotipo" id="logo2">   <!-- Widht y height solo provisorio por proporciones, 
             luego se cambia por CSS -->
         <nav>
             <ul>
@@ -23,12 +23,15 @@
     </header>
 
     <main>
-       <p>
-        Todos los datos, personas e iconografía de esta página son ficticios.
-        Estos son limitados al uso meramente educativos, solamente para el uso del autor de este sitio.
-        Cualquier parecido con individuos y/o datos reales es mera coincidencia. 
-        En caso de dudas o inconveniente con la información presentada, por favor, complete el siguiente formulario y nos pondremos en contacto:
-       </p>
+        <section>
+            <h1>Legales</h1>
+           <p>
+              Todos los datos, personas e iconografía de este sitio son ficticios.
+              Estos son limitados al uso meramente educativos y exclusivos para el uso del autor de este sitio.
+              Cualquier parecido con individuos y/o datos reales es mera coincidencia. 
+              En caso de dudas o inconveniente con la información presentada, por favor, complete el siguiente formulario y nos pondremos en contacto:
+          </p>
+        </section>
       <form action="">
          <div>
             <label for="nombreapellido">Nombre y Apellido:</label>
@@ -43,8 +46,8 @@
             <input type="tel" id="telefono" placeholder="Ingrese su telefono" name="">
         </div>
         <div>
-            <label for="duda">Mensaje:</label>
-            <textarea id="duda" cols="30" rows="10"  placeholder="Ingrese su mensaje" name=""></textarea>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" cols="30" rows="10"  placeholder="Ingrese su mensaje" name=""></textarea>
         </div>
         <div> 
             <input type="submit" value="Enviar">
@@ -79,6 +82,7 @@
         <p>
             Copyright ©2022
         </p>
+        <a href="#logo2">Volver a arriba</a>
         <a href="legales.html">Aviso Legal</a>
     </footer>
 </body>
