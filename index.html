@@ -5,57 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jarzynski Abogados</title>
-    <link rel="icon" href="imag/Logo2 - icono.ico"> <!-- Se me ocurrió la idea de agregarle el icono,
-        para darle más identidad. Aunque no lo hayamos visto en clase. Perdón! -->
-
-</head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,100;1,300;1,400&display=swap" rel="stylesheet">
+    
 <body>
-    <header>
-        <img src="imag/Logo2.jpg" width="150" height="100" alt="logotipo" id="logo2">   <!-- Widht y height solo provisorio por proporciones, 
-            luego se cambia por CSS -->
+    <header class="header">
+        <div class="header__div">
+        <img class="header__logo" src="imag/Prueba 2-blanco.png">   
         <nav>
-            <ul>
-                <li> <a href="index.html">Inicio</a></li>
-                <li> <a href="nuestrosservicios.html">Nuestos servicios</a></li>
-                <li> <a href="nuestroequipo.html">Nuestro equipo</a></li>
+            <ul class="header__nav">
+                <li class="header__nav__ul__li"> <a class="header__nav__ul__li__a" href="index.html">Inicio</a></li>
+                <li class="header__nav__ul__li"> <a class="header__nav__ul__li__a" href="nuestrosservicios.html">Nuestos servicios</a></li>
+                <li class="header__nav__ul__li"> <a class="header__nav__ul__li__a" href="nuestroequipo.html">Nuestro equipo</a></li>
              </ul>
         </nav>
+    </div>
     </header>
 
-    <main>
-        <section>
-            <h1>Resposabilidad y servicio</h1>
-               <p>
-                 El Estudio fue fundado en marzo de 1992.
-                 Se trata de un grupo de profesionales del derecho y de ciencias económicas,
-                 dedicado especialmente al Derecho Comercial, Derecho Tributario, Derecho Laboral, Derecho Civil y Derecho Penal.
-                 Brindamos asesoramiento de forma integral y ayudamos a nuestros clientes a gestionar sus negocios, sea cual sea el desafío.
-              </p>
+    <main class="main">
+        <section class="main__section1">
+            <h1 class="main__section1__titulo">Resposabilidad y servicio</h1>
+            <p class="main__section1__parrafo">
+                El Estudio fue fundado en marzo de 1992.
+                Se trata de un grupo de profesionales del derecho y de ciencias económicas,
+                dedicado especialmente al Derecho Comercial, Derecho Tributario, Derecho Laboral, Derecho Civil y
+                Derecho Penal.
+                Brindamos asesoramiento de forma integral y ayudamos a nuestros clientes a gestionar sus negocios, sea
+                cual sea el desafío.
+            </p>
         </section>
-        
-        <section>
-            <h2>Últimas noticias</h2>
-                 <article>
-                    <h3>Orlando Barone le ganó un juicio millonario a la TV Pública por su participación en 6,7,8: cuánto cobrará</h3>
-                    <p>El ex panelista del programa 6,7,8 había iniciado la demanda por considerarse despedido en 2016 luego de que el programa se dejara de emitir.</p>
-                    <a href="https://www.iprofesional.com/legales/362153-orlando-barone-le-gano-un-juicio-millonario-a-la-tv-publica" target="_blank">Leer la nota completa</a>
-                 </article> 
-            
-                 <article>
-                     <h3>Rosario es la cuestión</h3>
-                     <p>Jueces federales y de la Corte se reunirán en Rosario para analizar cómo juzgar al narcotráfico, ante la escalada de casos. En paralelo, el Congreso recibió un proyecto de ley para reformar la justicia que contempla la creación de más juzgados y la transferencia de secretarías. </p>
-                     <a href="https://www.diariojudicial.com/nota/92016/penal/rosario-es-la-cuestion.html" target="_blank">Leer la nota completa</a>
-                 </article>
+        <div class="main__division">
+            <div class="main__contenedor__servicios">
+                <h3 class="main__division__contenedor__servicios__titulo">Nuestros Servicios</h3>
+                <div>
+                    <img class="main__division__contenedor__servicios__iconos" src="/imag/Iconos separador/outline_account_balance_white_48dp.png" alt="icono juzgado">
+                    <img class="main__division__contenedor__servicios__iconos" src="/imag/Iconos separador/outline_balance_white_48dp.png" alt="icono balanza">
+                    <img class="main__division__contenedor__servicios__iconos"src="/imag/Iconos separador/outline_gavel_white_48dp.png" alt="">
+                </div>
+                <ul class="main__div__division__lista">
+                    <li class="main__div__division__lista__objeto">Derecho Laboral</li>
+                    <li class="main__div__division__lista__objeto">Derecho Corporativo</li>
+                    <li class="main__div__division__lista__objeto">Derecho Familiar</li>
+                </ul>
+                <a class="main__division__link" href="nuestrosservicios.html">Ver Servicios</a>
+            </div>
+        </div>
+        <section class="main__section2">
+            <h2 class="main__section2__titulogeneral">Últimas noticias</h2>
+            <article>
+                <h3>Orlando Barone le ganó un juicio millonario a la TV Pública por su participación en 6,7,8:
+                    cuánto
+                    cobrará</h3>
+                <p>El ex panelista del programa 6,7,8 había iniciado la demanda por considerarse despedido en 2016
+                    luego
+                    de que el programa se dejara de emitir.</p>
+                <a href="https://www.iprofesional.com/legales/362153-orlando-barone-le-gano-un-juicio-millonario-a-la-tv-publica"
+                    target="_blank">Leer la nota completa</a>
+            </article>
+    
+            <article>
+                <h3>Rosario es la cuestión</h3>
+                <p>Jueces federales y de la Corte se reunirán en Rosario para analizar cómo juzgar al narcotráfico,
+                    ante
+                    la escalada de casos. En paralelo, el Congreso recibió un proyecto de ley para reformar la
+                    justicia
+                    que contempla la creación de más juzgados y la transferencia de secretarías. </p>
+                <a href="https://www.diariojudicial.com/nota/92016/penal/rosario-es-la-cuestion.html" target="_blank">Leer
+                    la nota completa</a>
+            </article>
         </section>
-        <aside> 
-            <iframe style="width: 300px; height: 250px;" frameborder="0" scrolling="no" src="https://www.cotizacion-dolar.com.ar/recursos-webmaster/promedios/cotizacion-argentina-300x250.php">
-            </iframe>
-        </aside>
-        
+    
     </main>
 
-    <footer>
-        <img src="imag/Logo2.jpg" width="150" height="100" alt="logotipo">
+    <footer class="footer">
+        <img src="imag/Prueba 2-blanco.png" alt="logotipo">
         <div>
             <h3>Visitanos en nuestras páginas:</h3> <!-- Lo vuelvo a utilizar más abajo, no se si es aceptable (se que no con h1),
                                                      pero quería que ambos tengan la misma gerarquia-->

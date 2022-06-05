@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Noto Sans', sans-serif;
+
+ 
+}
+
+
+
+.header{
+    background-image: url(../imag/prubas/Biblioteca1.jpg);
+    height: 200px;
+    background-size:cover;
+    background-position: center;
+}
+
+
+.header__div{
+    padding: 0px 5px ;
+    background-color: rgb(0 0 0/ 30%);
+    width: 100%;
+    height: 80;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.header__logo{
+   margin-bottom: 10px;
+}
+
+.header__nav{
+   list-style: none;
+   display: flex;
+   transition: all;
+}
+
+
+.header__nav__ul__li{
+    margin:5px;
+}
+
+
+.header__nav__ul__li__a{
+    text-decoration: none;
+    transition:all 0.5s ease;
+    color: white;
+    padding: 5px;
+    font-weight: 400;
+    margin: 0px 10px;
+    
+}
+
+.header__nav__ul__li__a:hover{
+    background-color: rgb(0 0 0/ 50%);
+    border-radius: 5px;
+
+}
+
+
+.main{
+    background-color:#efefef;
+
+}
+.main__section1{
+    width: 100%;
+    text-align: center;
+    padding:2rem;
+    
+}
+
+
+.main__section1__titulo{
+    width: 100%;
+    font-size: 30px;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #8d6565d3;
+
+}
+
+
+.main__section1__parrafo{
+    width: 100%;
+    height: auto;
+    font-weight: 400;
+}
+
+.main__division{
+    width: 100%;
+    height: 400px;
+    background-image: url(../imag/prubas/separador.jpg) ;
+    background-position: center;
+    
+}
+
+
+.main__contenedor__servicios{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0 0 0/ 60%);
+}
+
+
+.main__division__contenedor__servicios__titulo{
+    color: white;
+    margin-bottom: 6rem;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.main__division__contenedor__servicios__iconos{
+    margin: 0px 55px;
+    
+}
+
+.main__div__division__lista{
+   display: flex;
+
+}
+  
+.main__div__division__lista__objeto {
+    list-style: none;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: 0px 30px;
+}
+
+
+.main__division__link{
+    margin: 1rem;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    border: 1px white solid;
+}
+
+
+
+
+
+
+
+.main__section2{
+    width: 100%;
+    height: 400px;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+
+
+
+.main__section2__titulogeneral{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 1rem 0rem;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: black;
+    color:white;
+   
+}
