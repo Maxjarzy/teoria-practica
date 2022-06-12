@@ -382,14 +382,56 @@
  }
 
  .servicios__individuales{
-     background-color: blue;
+     background-color: #7474746c;
      margin: 1rem 0rem;
      width: 100%;
-     height: 150px ;
+     height: 200px ;
      padding: 1rem 0rem 1rem 0rem ;
+     border:8px #747474 inset;
  }
 
- .servicios_individuales_titulos{
+ .servicios__individuales__titulos{
     font-size: 26px;
-    padding: 0rem 0rem 1rem 0rem;
+    padding: 0rem 0rem 1rem 1rem;
+    text-decoration: underline;
+ }
+
+ .servicios__individuales__parrafos{
+ font-size:20px;
+ font-weight:400;
+ padding: 8px;
+ }
+
+
+ .tabla__honorarios{
+    margin: 3rem auto;
+    text-align: left;
+    width: 70%;
+    border-collapse: collapse;
+    border:5px solid #0f362d;
+ }
+
+
+ .tabla__th__td{
+    padding: 20px;
+ }
+
+
+ .tabla__head{
+    background-color: #5a5858;
+    border-bottom: 5px solid #0f362d;
+    color:white;
+ }
+
+
+ .tabla__cuerpo:hover{
+    background-color: #5a5858;
+    color: white;
+ }
+
+
+ .tabla__pie{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
  }
