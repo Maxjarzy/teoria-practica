@@ -349,7 +349,6 @@
 
 
 .seccion__servicios{
-    
     width: 100%;
 
 }
@@ -359,8 +358,8 @@
     width: 100%;
     height: 230px;
     text-align: center;
-}
 
+}
 
 
 .nuestros__servicios__titulo{
@@ -374,12 +373,13 @@
 
 
 .nuestros__servicios__lista{
-
     list-style: none;
     font-size: 20px;
     width: 100%;
     font-weight: 400;
+
  }
+
 
  .servicios__individuales{
      background-color: #7474746c;
@@ -388,18 +388,23 @@
      height: 200px ;
      padding: 1rem 0rem 1rem 0rem ;
      border:8px #747474 inset;
+
  }
+
 
  .servicios__individuales__titulos{
     font-size: 26px;
     padding: 0rem 0rem 1rem 1rem;
     text-decoration: underline;
+
  }
+
 
  .servicios__individuales__parrafos{
  font-size:20px;
  font-weight:400;
  padding: 8px;
+
  }
 
 
@@ -409,11 +414,13 @@
     width: 70%;
     border-collapse: collapse;
     border:5px solid #0f362d;
+
  }
 
 
  .tabla__th__td{
     padding: 20px;
+
  }
 
 
@@ -421,12 +428,14 @@
     background-color: #5a5858;
     border-bottom: 5px solid #0f362d;
     color:white;
+
  }
 
 
  .tabla__cuerpo:hover{
     background-color: #5a5858;
     color: white;
+
  }
 
 
@@ -434,4 +443,230 @@
     font-size: 15px;
     font-weight: bold;
     text-align: center;
+
  }
+
+
+
+ /* Estilos nuestro equipo */
+
+ .equipo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 0rem 4rem 0rem;
+    
+ }
+ 
+
+ .equipo__titulo{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    padding: 2rem 0rem 1rem 0rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #8d6565d3;
+
+ }
+
+
+ .equipo__carlos__jarzynski{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    background: rgb(239,239,239);
+    background: linear-gradient(270deg, rgba(239,239,239,1) 5%, rgba(116,116,116,1) 51%);
+ 
+}
+
+
+ .equipo__carlos__jarzynski__foto{
+    width: 300px;
+    height: 300px;
+
+ }
+
+
+ .equipo__carlos__jarzynski__titulo{
+    font-size: 26px;
+    padding: 1rem 1rem;
+
+ }
+
+
+ .equipo__carlos__jarzynski__parrafo{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 1rem;
+
+ }
+
+
+ .equipo__carlos__jarzynski__link{
+    text-decoration: none;
+    padding: 1rem;
+    color:black;
+    font-size: 40px;
+
+ }
+
+
+ .equipo__jose__jarzynski{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1rem;
+    background: rgb(239,239,239);
+    background: linear-gradient(90deg, rgba(239,239,239,1) 5%, rgba(116,116,116,1) 51%);
+    
+ }
+
+
+ .equipo__jose__jarzynski__foto{
+    width: 300px;
+    height: 300px;
+
+ }
+
+
+ .equipo__jose__jarzynski__titulo{
+    font-size: 26px;
+    padding: 1rem 1rem;
+
+ }
+
+
+ .equipo__carlos__jarzynski__parrafo{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 1rem;
+
+ }
+
+
+ .equipo__carlos__jarzynski__link{
+    text-decoration: none;
+    padding: 1rem;
+    color:black;
+    font-size: 40px;
+
+ }
+
+
+ .equipo__sebastian__jarzynski{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    background: rgb(239,239,239);
+    background: linear-gradient(270deg, rgba(239,239,239,1) 5%, rgba(116,116,116,1) 51%);
+ 
+}
+
+
+ .equipo__sebastian__jarzynski__foto{
+    width: 300px;
+    height: 300px;
+
+ }
+
+
+ .equipo__sebastian__jarzynski__titulo{
+    font-size: 26px;
+    padding: 1rem 1rem;
+
+ }
+
+
+ .equipo__sebastian__jarzynski__parrafo{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 1rem;
+
+ }
+
+
+ .equipo__sebastian__jarzynski__link{
+    text-decoration: none;
+    padding: 1rem;
+    color:black;
+    font-size: 40px;
+
+ }
+
+
+
+
+
+
+ /* Estilos aviso legal */
+
+
+.legales{
+    padding: 1rem;
+}
+
+
+ .legales__titulo{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    padding: 1rem 0rem 1rem 0rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #8d6565d3;
+ }
+
+
+ .legales__parrafo{
+    font-size: 20px;
+    font-weight: 400;
+
+ }
+
+
+ .legales__formulario{
+    width: 500px;
+    display: flex;
+    flex-direction: column; 
+    background-color: #7474748c;
+    align-items: center;
+    padding: 2rem;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 2rem;
+    border-radius: 30px;
+ 
+
+ }
+
+
+.legales__formulario__datos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    
+}
+ 
+
+.legales__formulario__input{
+    border: 3px hsl(210deg 8% 75%) solid;
+    border-radius: 5px ;
+}
+
+
+.legales__formulario__boton{
+    border-radius: 15px;
+    border: 3px hsl(210deg 8% 75%) solid;
+    width: 5rem;
+    height: 2rem;
+
+}
+
+.legales__formulario__boton:hover{
+    cursor: pointer;
+}
+
+
+.main__padding{
+    padding-bottom: 3rem;
+}
