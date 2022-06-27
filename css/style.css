@@ -671,3 +671,158 @@
 .main__padding{
     padding-bottom: 3rem;
 }
+
+
+
+@media (max-width: 320px){
+
+.header{
+    height: 120px;
+
+}
+
+
+.header__div{
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+    
+}
+
+
+.header__nav__ul__li{
+    font-size: 11px;
+
+}
+
+
+.main__section1{
+    height: 300px;
+
+}
+
+
+.main__section1__titulo{
+    font-size: 20px;
+
+}
+
+
+.main__section1__parrafo{
+    font-size: 13px;
+
+}
+
+
+.main__division{
+    height: 400px ;
+
+}
+
+
+.main__division__contenedor__servicios__titulo{
+    font-size: 20px;
+    margin-bottom:2rem;
+
+}
+
+
+.main__contenedor__iconos{
+    display:none;
+}
+
+
+.main__div__division__lista{
+    flex-direction: column;
+    
+}
+
+
+.main__div__division__lista__objeto{
+    font-size: 13px;
+
+}
+
+
+.main__division__link{
+    margin-top: 3rem;
+    padding: 1rem;
+
+}
+
+
+.main__section2{
+    height: 750px;
+
+}
+
+
+.main__section2__titulogeneral{
+    font-size: 20px;
+
+}
+
+
+.main__section2__article1__titulo{
+    font-size: 17px;
+    padding-left: 8px;
+
+}
+
+
+.main__section2__article1__parrafo{
+    font-size: 13px;
+    padding: 8px;
+
+}
+
+
+.main__section2__article2__titulo{
+    font-size: 17px;
+    padding-left: 8px;
+
+}
+
+
+.main__section2__article2__parrafo{
+    font-size: 13px;
+    padding: 8px;
+
+}
+
+
+.footer{
+    height: 450px;
+    flex-direction: column;
+}
+
+
+.footer__primer__columna{
+    order: 2;
+
+}
+
+.footer__segunda__columna{
+    order:1;
+
+}
+
+
+.copyright{
+    font-size: 15px ;
+    text-align: center;
+    margin-top: 8px;
+
+}
+
+
+.icono__facebook, .icono__instagram, .icono__linkedin{
+    font-size: 40px;
+
+}
+
+
+
+
+
+}
