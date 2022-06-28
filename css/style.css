@@ -676,6 +676,7 @@
 
 @media (max-width: 320px){
 
+    /* Pagina de inicio */
 .header{
     height: 120px;
 
@@ -729,6 +730,7 @@
 
 .main__contenedor__iconos{
     display:none;
+
 }
 
 
@@ -822,7 +824,54 @@
 }
 
 
+/* Nuestros servicios */
 
 
+.nuestros__servicios{
+    height: 200px;
 
+}
+
+
+.nuestros__servicios__titulo{
+    font-size: 20px;
+
+}
+
+
+.nuestros__servicios__lista{
+    font-size: 13px;
+
+}
+
+
+.servicios__individuales{
+    height: 500px;
+}
+
+.tabla{
+    display: none;
+}
+
+
+/* Nuestro Equipo */
+
+.equipo__titulo{
+    font-size: 20px;
+}
+
+
+.equipo__carlos__jarzynski{
+    flex-direction: column;
+
+}
+
+.equipo__jose__jarzynski{
+    flex-direction: column;
+
+}
+
+.equipo__sebastian__jarzynski{
+    flex-direction: column;
+}
 }
