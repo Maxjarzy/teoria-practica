@@ -699,7 +699,8 @@
 
 
 .main__section1{
-    height: 260px;
+    height: 450px;
+    margin-bottom:  1rem;
 
 }
 
@@ -956,7 +957,7 @@
 
 .legales__formulario{
     width: 100%;
-    
+
 }
 
 
