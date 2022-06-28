@@ -536,7 +536,7 @@
  }
 
 
- .equipo__carlos__jarzynski__parrafo{
+ .equipo__jose__jarzynski__parrafo{
     font-size: 20px;
     font-weight: 400;
     padding: 1rem;
@@ -544,7 +544,7 @@
  }
 
 
- .equipo__carlos__jarzynski__link{
+ .equipo__jose__jarzynski__link{
     text-decoration: none;
     padding: 1rem;
     color:black;
@@ -673,8 +673,9 @@
 }
 
 
+/* Media mobile */
 
-@media (max-width: 320px){
+@media (max-width: 600px){
 
     /* Pagina de inicio */
 .header{
@@ -685,32 +686,32 @@
 
 .header__div{
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     height: 120px;
     
 }
 
 
 .header__nav__ul__li{
-    font-size: 11px;
+    font-size: 16px;
 
 }
 
 
 .main__section1{
-    height: 300px;
+    height: 260px;
 
 }
 
 
 .main__section1__titulo{
-    font-size: 20px;
+    font-size: 24px;
 
 }
 
 
 .main__section1__parrafo{
-    font-size: 13px;
+    font-size: 18px;
 
 }
 
@@ -722,7 +723,7 @@
 
 
 .main__division__contenedor__servicios__titulo{
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom:2rem;
 
 }
@@ -741,7 +742,7 @@
 
 
 .main__div__division__lista__objeto{
-    font-size: 13px;
+    font-size: 18px;
 
 }
 
@@ -760,34 +761,34 @@
 
 
 .main__section2__titulogeneral{
-    font-size: 20px;
+    font-size: 24px;
 
 }
 
 
 .main__section2__article1__titulo{
-    font-size: 17px;
+    font-size: 18px;
     padding-left: 8px;
 
 }
 
 
 .main__section2__article1__parrafo{
-    font-size: 13px;
+    font-size: 16px;
     padding: 8px;
 
 }
 
 
 .main__section2__article2__titulo{
-    font-size: 17px;
+    font-size: 18px;
     padding-left: 8px;
 
 }
 
 
 .main__section2__article2__parrafo{
-    font-size: 13px;
+    font-size: 16px;
     padding: 8px;
 
 }
@@ -796,6 +797,7 @@
 .footer{
     height: 450px;
     flex-direction: column;
+    align-items: center;
 }
 
 
@@ -810,10 +812,32 @@
 }
 
 
+.footer__tercer__columna{
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.footer__titulo__contactos{
+    font-size: 24px;
+
+}
+
+.footer__links{
+    font-size: 16px;
+
+}
+
+
+.footer__contactos{
+    font-size: 18px;
+}
+
 .copyright{
     font-size: 15px ;
     text-align: center;
-    margin-top: 8px;
+    margin-top: 12px;
 
 }
 
@@ -834,20 +858,33 @@
 
 
 .nuestros__servicios__titulo{
-    font-size: 20px;
+    font-size: 24px;
 
 }
 
 
 .nuestros__servicios__lista{
-    font-size: 13px;
+    font-size: 18px;
 
 }
 
 
 .servicios__individuales{
-    height: 500px;
+    height: 300px;
 }
+
+
+.servicios__individuales__titulos{
+    font-size: 18px;
+
+}
+
+
+.servicios__individuales__parrafos{
+    font-size: 16px;
+
+}
+
 
 .tabla{
     display: none;
@@ -857,21 +894,77 @@
 /* Nuestro Equipo */
 
 .equipo__titulo{
-    font-size: 20px;
+    font-size: 24px;
 }
 
 
 .equipo__carlos__jarzynski{
     flex-direction: column;
+    align-items: center;
+    text-align: center;
 
 }
+
+.equipo__carlos__jarzynski__titulo, .equipo__carlos__jarzynski__parrafo{
+    text-align: center;
+}
+
 
 .equipo__jose__jarzynski{
     flex-direction: column;
+    align-items: center;
+    text-align: center;
 
 }
+
+
+.equipo__jose__jarzynski__titulo, .equipo__jose__jarzynski__parrafo{
+    text-align: center;
+}
+
 
 .equipo__sebastian__jarzynski{
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+
 }
+
+
+.equipo__sebastian__jarzynski__titulo, .equipo__sebastian__jarzynski__parrafo{
+    text-align: center;
+
+}
+
+
+
+/* Legales */
+
+
+.legales__titulo{
+    font-size: 24px;
+
+}
+
+
+.legales__parrafo{
+    font-size: 18px;
+    text-align: center ;
+
+}
+
+
+.legales__formulario{
+    width: 100%;
+    
+}
+
+
+
+/* Media tablet */
+
+@media screen {
+    
+}
+
 }
