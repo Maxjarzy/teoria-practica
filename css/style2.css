@@ -456,22 +456,103 @@
    
 }
 
-.container{
+.container {
+    padding: 0;
+
+}
+
+
+.accordion{
+ --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='var%28--bs-body-color%29'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")
+}
+
+
+.accordion-button{
     background-color: #5f9ea033;
-    border-radius: 15px;
+    color:white;
+    
+    
+
+}
+
+.accordion-button:not(.collapsed){
+    background-color:#5f9ea033;
+    box-shadow: none;
+    color:white;
+    
+}
+
+
+.accordion-button:focus{
+    box-shadow: none;
+
+}
+
+
+.accordion-body{
+color: white;
+border-left: 2px solid #5f9ea033;
+border-right: 2px solid #5f9ea033;
+border-bottom: 2px solid #5f9ea033;
+
+
+}
+
+.accordion-item{
+    background-color:transparent;
+    border:none;
+
 }
 
 
 
 
+.tabla{
+    width: 90%;
+
+}
+.tabla__honorarios{
+    margin: 3rem auto;
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+    border:5px solid #0000009c;
+    
+
+ }
 
 
+ .tabla__th__td{
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
 
 
+ }
 
 
+ .tabla__head{
+    background-color: #5f9ea033;
+    border:5px solid #0000009c;
+
+ }
 
 
+ .tabla__cuerpo:hover{
+    background-color:#5f9ea033;
+    color: white;
+
+ }
+
+
+ .tabla__pie{
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+
+ }
 
 
 
