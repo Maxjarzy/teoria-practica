@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jarzynski Abogados</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,100;1,300;1,400&display=swap"
-            rel="stylesheet">
-        <script src="https://kit.fontawesome.com/51483caece.js" crossorigin="anonymous"></script>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarzynski Abogados</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/51483caece.js" crossorigin="anonymous"></script>
+</head>
+
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="header__div">
-            <img class="header__logo" src="imag/Prueba 2-blanco.png" id="logo">
+            <a href="index.html"><img class="header__logo" src="imag/Prueba 2-blanco.png" id="logo"></a>
             <nav>
                 <ul class="header__nav">
                     <li class="header__nav__ul__li"> <a class="header__nav__ul__li__a" href="index.html">Inicio</a></li>
@@ -28,37 +29,55 @@
         </div>
     </header>
 
-    <main class="main main__padding">
-        <section class="legales">
-            <h1 class="legales__titulo">Legales</h1>
-           <p class="legales__parrafo">
-              Todos los datos, personas e iconografía de este sitio son ficticios.
-              Estos son limitados al uso meramente educativos y exclusivos para el uso del autor de este sitio.
-              Cualquier parecido con individuos y/o datos reales es mera coincidencia. 
-              En caso de dudas o inconveniente con la información presentada, por favor, complete el siguiente formulario y nos pondremos en contacto:
-          </p>
-        </section>
-      <form class="legales__formulario" action="">
-         <div class="legales__formulario__datos">
-            <label for="nombreapellido">Nombre y Apellido:</label>
-            <input class="legales__formulario__input" type="text" id="nombreapellido" placeholder="Ingrese su nombre y apellido" name="">
+    <main class="main">
+        <div class="legales2">
+            <div class="formulario">
+                <section class="legales">
+                    <h1 class="legales__titulo">Legales</h1>
+                    <p class="legales__parrafo">
+                        Todos los datos, personas e iconografía de este sitio son ficticios.
+                        Estos son limitados al uso meramente educativos y exclusivos para el uso del autor de este
+                        sitio.
+                        Cualquier parecido con individuos y/o datos reales es mera coincidencia.
+                        En caso de dudas o inconveniente con la información presentada, por favor, complete el siguiente
+                        formulario y nos pondremos en contacto.
+                    </p>
+                </section>
+                <form class="legales__formulario" action="">
+                    <div class="legales__formulario__datos">
+                        <label for="nombreapellido">Nombre y Apellido</label>
+                        <input class="legales__formulario__input" type="text" id="nombreapellido"
+                            placeholder="Ingrese su nombre y apellido" name="">
+                    </div>
+                    <div class="legales__formulario__datos">
+                        <label for="email">Email</label>
+                        <input class="legales__formulario__input" type="email" id="email" placeholder="Ingrese su email"
+                            name="">
+                    </div>
+                    <div class="legales__formulario__datos">
+                        <label for="telefono">Teléfono</label>
+                        <input class="legales__formulario__input" type="tel" id="telefono"
+                            placeholder="Ingrese su telefono" name="">
+                    </div>
+                    <div class="legales__formulario__datos">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="legales__formulario__input" id="mensaje" cols="30" rows="10"
+                            placeholder="Ingrese su mensaje" name=""></textarea>
+                    </div>
+                    <div>
+                        <input class="legales__formulario__boton" type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.124838827153!2d-62.255974884936116!3d-38.73789739525551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eda32f27e6c0b3%3A0xfb5b1ffdff17a68b!2sThompson%201680%2C%20B8001%20Bah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1657742723202!5m2!1sen!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
-        <div class="legales__formulario__datos">
-            <label for="email">Email:</label>
-            <input class="legales__formulario__input" type="email" id="email" placeholder="Ingrese su email" name="">
-        </div>
-        <div class="legales__formulario__datos">
-            <label for="telefono">Teléfono:</label>
-            <input class="legales__formulario__input" type="tel" id="telefono" placeholder="Ingrese su telefono" name="">
-        </div>
-        <div class="legales__formulario__datos">
-            <label for="mensaje">Mensaje:</label>
-            <textarea class="legales__formulario__input" id="mensaje" cols="30" rows="10"  placeholder="Ingrese su mensaje" name=""></textarea>
-        </div>
-        <div > 
-            <input class="legales__formulario__boton" type="submit" value="Enviar">
-        </div>
-      </form>
+
+
 
     </main>
 
@@ -83,16 +102,18 @@
         <div class="footer__tercer__columna">
             <h3 class="footer__titulo__contactos">Contacto</h3>
             <ul class="footer__contactos">
-                <li> Thompson 1680</li>
+                <li>Thompson 1680</li>
                 <li>CP B8000 </li>
                 <li>Bahia Blanca, Argentina.</li>
                 <li>+542914252830 </li>
                 <li>administracion@jarzynskiabogados.com</li>
             </ul>
-            <a class="footer__links" href="#logo">Volver a arriba</a>
-            <a class="footer__links" href="legales.html">Aviso Legal</a>
-            
+            <div>
+                <a class="footer__links" href="#header">Volver a arriba</a>
+                <a class="footer__links" href="legales.html">Aviso Legal</a>
+            </div>
         </div>
     </footer>
 </body>
+
 </html>

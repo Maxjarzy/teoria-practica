@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jarzynski Abogados</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,100;1,300;1,400&display=swap"
-            rel="stylesheet">
-        <script src="https://kit.fontawesome.com/51483caece.js" crossorigin="anonymous"></script>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarzynski Abogados</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/51483caece.js" crossorigin="anonymous"></script>
+</head>
+
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="header__div">
-            <img class="header__logo" src="imag/Prueba 2-blanco.png" id="logo">
+            <a href="index.html"><img class="header__logo" src="imag/Prueba 2-blanco.png" id="logo"></a>
             <nav>
                 <ul class="header__nav">
                     <li class="header__nav__ul__li"> <a class="header__nav__ul__li__a" href="index.html">Inicio</a></li>
@@ -28,7 +31,7 @@
         </div>
     </header>
 
-    <main class="main__padding">
+    <main class="main">
         <section class="seccion__servicios">
             <div class="nuestros__servicios">
                 <h1 class="nuestros__servicios__titulo">Nuestros servicios</h1>
@@ -40,35 +43,98 @@
                     <li>Auditorias jurídicas</li>
                 </ul>
             </div>
-            <div class="servicios__individuales">
-                <h2 class="servicios__individuales__titulos">Litigios</h2>
-                <p class="servicios__individuales__parrafos">Nuestro Estudio es reconocido como uno de los principales del país en materia de administración de litigios,
-                    actividad a la que dedica, aproximadamente, el 60 % de sus recursos.</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseOne">
+                                        Litigios
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body">
+                                        Nuestro Estudio es reconocido como uno de los principales del país en materia de administración de litigios,
+                                actividad a la que dedica, aproximadamente, el 60 % de sus recursos.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseTwo">
+                                        Cobranzas
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body">
+                                        Nuestra área de cobranzas cuenta con más de cuarenta (40) años de experiencia en el tratamiento de variada
+                                cartera de deudores: bancarios, tarjetas de créditos, instituciones educativas, obras sociales, cobro de
+                                expensas, alquileres, entre otras.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseThree">
+                                        Asesoría y consulta jurídica
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingThree">
+                                    <div class="accordion-body">
+                                        Brindamos asesoría jurídica de la más alta calidad, personalizando la relación con nuestros clientes,
+                                generándoles seguridad y comodidad, logrando formar, de esta manera, relaciones de estrecha confianza y de
+                                largo plazo.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseOne">
+                                        Elaboración de contratos
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body">
+                                        Ofrecemos asesoramiento y redacción de contratos de acuerdo a sus necesidades. Por eso es muy importante la
+                                forma de preservar su derecho frente con quien contrata. Es necesario que se incluyan cada una de las
+                                cláusulas a su medida, siendo así, optimo para su desarrollo respecto al negocio que usted llevará a cabo.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseOne">
+                                        Auditorias jurídicas
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body">
+                                        Dentro de los servicios que cuenta el estudio, sus profesionales en Ciencias Económicas están capacitados
+                                   para hacer auditorias internas en grandes clientes, Pymes o emprendedores.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="servicios__individuales">
-                <h2 class="servicios__individuales__titulos">Cobranzas</h2>
-                <p class="servicios__individuales__parrafos">Nuestra área de cobranzas cuenta con más de cuarenta (40) años de experiencia en el tratamiento de variada
-                    cartera de deudores: bancarios, tarjetas de créditos, instituciones educativas, obras sociales, cobro de
-                    expensas, alquileres, entre otras.</p>
-            </div>
-            <div class="servicios__individuales">
-                <h2 class="servicios__individuales__titulos">Asesoría y consulta jurídica</h2>
-                <p class="servicios__individuales__parrafos">Brindamos asesoría jurídica de la más alta calidad, personalizando la relación con nuestros clientes,
-                    generándoles seguridad y comodidad, logrando formar, de esta manera, relaciones de estrecha confianza y de
-                    largo plazo.</p>
-            </div>
-            <div class="servicios__individuales">
-                <h2 class="servicios__individuales__titulos">Elaboración de contratos</h2>
-                <p class="servicios__individuales__parrafos">Ofrecemos asesoramiento y redacción de contratos de acuerdo a sus necesidades. Por eso es muy importante la
-                    forma de preservar su derecho frente con quien contrata. Es necesario que se incluyan cada una de las
-                    cláusulas a su medida, siendo así, optimo para su desarrollo respecto al negocio que usted llevará a cabo.
-                </p>
-            </div>
-            <div class="servicios__individuales">
-                <h2 class="servicios__individuales__titulos">Auditorias jurídicas</h2>
-                <p class="servicios__individuales__parrafos">Dentro de los servicios que cuenta el estudio, sus profesionales en Ciencias Económicas están capacitados
-                    para hacer auditorias internas en grandes clientes, Pymes o emprendedores.</p>
-            </div>
+
         </section>
         <section class="tabla">
             <div>
@@ -102,7 +168,8 @@
                         </tr>
                     </tbody>
                 </table>
-                <P class="tabla__pie"> Los valores estipulados en esta tabla son solo de refencia, están sujetos a variaciones dependiendo del
+                <P class="tabla__pie"> Los valores estipulados en esta tabla son solo de refencia, están sujetos a
+                    variaciones dependiendo del
                     servicio y necesidades especificas de cada cliente .
                     *N/C No corresponde
                 </P>
@@ -132,16 +199,23 @@
         <div class="footer__tercer__columna">
             <h3 class="footer__titulo__contactos">Contacto</h3>
             <ul class="footer__contactos">
-                <li> Thompson 1680</li>
+                <li>Thompson 1680</li>
                 <li>CP B8000 </li>
                 <li>Bahia Blanca, Argentina.</li>
                 <li>+542914252830 </li>
                 <li>administracion@jarzynskiabogados.com</li>
             </ul>
-            <a class="footer__links" href="#logo">Volver a arriba</a>
-            <a class="footer__links" href="legales.html">Aviso Legal</a>
-            
+            <div>
+                <a class="footer__links" href="#header">Volver a arriba</a>
+                <a class="footer__links" href="legales.html">Aviso Legal</a>
+            </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
