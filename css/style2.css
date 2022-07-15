@@ -101,10 +101,11 @@
 
 .main__section1__parrafo{
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 400;
     background-color:#5f9ea033;
     border-radius: 15px;
     padding: 1rem 0rem;
+
 }
 
 
@@ -456,29 +457,40 @@
    
 }
 
+
 .container {
     padding: 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 
 }
 
 
 .accordion{
  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='var%28--bs-body-color%29'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")
+
 }
 
 
 .accordion-button{
     background-color: #5f9ea033;
     color:white;
+    font-size: 16px;
+    font-weight: 400;
     
-    
-
 }
 
+
+.accordion-button:hover{
+    background-color: #5F9EA0;
+}
+
+
 .accordion-button:not(.collapsed){
-    background-color:#5f9ea033;
+    background-color:#5F9EA0;
     box-shadow: none;
-    color:white;
+    color: black;
+
     
 }
 
@@ -495,6 +507,12 @@ border-left: 2px solid #5f9ea033;
 border-right: 2px solid #5f9ea033;
 border-bottom: 2px solid #5f9ea033;
 
+}
+
+
+.acorddion-body-last{
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 
 }
 
@@ -505,62 +523,92 @@ border-bottom: 2px solid #5f9ea033;
 }
 
 
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 
+}
+
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
 
 .tabla{
     width: 90%;
-
-}
-.tabla__honorarios{
-    margin: 3rem auto;
-    text-align: left;
-    width: 100%;
-    border-collapse: collapse;
-    border:5px solid #0000009c;
+    background-color:#0000009c;
+    margin-top: 2rem;
+    border-radius: 15px;
+    padding: 2rem 2rem 0 2rem;
     
 
- }
+}
 
-
- .tabla__th__td{
-    padding: 20px;
-    color: white;
-    font-size: 16px;
-    font-weight: 400;
-
-
- }
-
-
- .tabla__head{
-    background-color: #5f9ea033;
-    border:5px solid #0000009c;
-
- }
-
-
- .tabla__cuerpo:hover{
+.tabla__contenedor{
+    width: 100%;
     background-color:#5f9ea033;
+    border-radius: 15px;
+    margin: auto auto;
+
+}
+
+
+.tabla__honorarios{
+    margin: auto auto;
+    width: 100%;
+}
+
+
+.tabla__head{
+    border-bottom: 8px solid #0000009c;
     color: white;
+    height: 3rem;
+    
+}
 
- }
 
-
- .tabla__pie{
-    color:white;
+.tabla__th__td{
     font-size: 16px;
     font-weight: 400;
     text-align: center;
 
- }
+}
 
 
+.tabla__cuerpo{
+    color:white;
+    height: 4rem;
+
+}
 
 
+.tabla__cuerpo:hover{
+    background-color: #5f9ea0;
+    color: black;
+
+}
 
 
+.filafinal{
+    border-bottom-left-radius: 15px;
+
+}
 
 
+.filafinaldos{
+    border-bottom-right-radius: 15px;
+}
+
+
+.tabla__pie{
+    margin-top: 1rem;
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
 
 /* Esilos nuestro equipo */
 
