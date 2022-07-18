@@ -913,6 +913,7 @@ textarea{
 
 iframe{
     border-radius: 15px;
+    height: 100%;
 
 }
 
@@ -978,6 +979,11 @@ iframe{
 
 /* Inicio */
 
+.main{
+   background-size: contain cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+}
 
 
 .main__contenedor__servicios{
@@ -1025,6 +1031,7 @@ iframe{
 
 .legales2{
     flex-direction: column;
+    height: fit-content;
 
 }
 
@@ -1039,6 +1046,7 @@ iframe{
 iframe{
     margin-top: 2rem;
     width: 100%;
+    height: 350px;
 
 }
 
